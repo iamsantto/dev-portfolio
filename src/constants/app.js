@@ -1,9 +1,14 @@
 export const HEADER = {
   designation: 'Full Stack Developer',
-  name: 'Santhosh Thirumavalavan',
   location: 'Bangalore, India',
   locationIcon: '/images/location.png',
-  profilePicUrl: '/images/profile.png',
+  locationIconAlt: 'Location',
+  name: 'Santhosh Thirumavalavan',
   profilePicAlt: 'Profile Picture',
-  locationIconAlt: 'Location'
+  profilePicUrl: '/images/profile.png'
+};
+
+export const FOOTER = {
+  connect: [],
+  nav: [ 'Blog', 'Resume' ]
 };

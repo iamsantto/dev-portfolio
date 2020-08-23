@@ -14,7 +14,7 @@
   background-color: #222831;
   box-shadow: 0 0 10px 0px #222831;
   margin: 5vh;
-  width: 160vh;
+  width: 150vh;
   height: 90vh;
 }
 
@@ -36,11 +36,12 @@
 }
 
 .Footer {
-  bottom: 0;
+  bottom: 1.3vh;
+  height: 8vh;
 }
 
 .Header {
-  top: 0;
+  top: 1.3vh;
 }
 
 .Location {
