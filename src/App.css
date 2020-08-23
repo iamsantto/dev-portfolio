@@ -22,7 +22,7 @@
   background-color: #e9f1f3;
   box-shadow: 0 0 10px 0 #222831;
   color: #222831;
-  height: 18vh;
+  height: 15vh;
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -36,11 +36,11 @@
 }
 
 .Footer {
-  bottom: 0px;
+  bottom: 0;
 }
 
 .Header {
-  top: 0px;
+  top: 0;
 }
 
 .Location {
@@ -50,4 +50,5 @@
 
 .Title {
   margin: 2vh;
+  padding: 2vh 10vh;
 }
