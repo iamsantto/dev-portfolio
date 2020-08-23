@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Canvas from './Canvas';
 import CardOverlay from './CardOverlay';
 import Title from './Title'
@@ -8,6 +8,10 @@ import { HEADER } from '../constants/app'
 import '../App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = HEADER.name
+  })
+
   return (
     <div className="App">
       <CardOverlay position="Header">
