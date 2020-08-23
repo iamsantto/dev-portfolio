@@ -46,6 +46,17 @@
 .Location {
   color: #758080;
   font-size: calc(1.5vmin);
+  padding-top: 0.2vh;
+}
+
+.Profile-Picture {
+  margin-top: 0.6vh;
+  height: 15vh;
+}
+
+.Location-Icon {
+  height: 1.1vh;
+  padding-right: 0.2vw;
 }
 
 .Title {

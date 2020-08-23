@@ -15,11 +15,8 @@ function App() {
   return (
     <div className="App">
       <CardOverlay position="Header">
-        <Title
-          designation={HEADER.designation}
-          name={HEADER.name}
-          location={HEADER.location}
-        />
+        <Title />
+        <div><img src={HEADER.profilePicUrl} alt={HEADER.profilePicAlt} className="Profile-Picture" /></div>
       </CardOverlay>
       <Canvas>
 
