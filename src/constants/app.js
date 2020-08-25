@@ -5,10 +5,12 @@ export const HEADER = {
   locationIconAlt: 'Location',
   name: 'Santhosh Thirumavalavan',
   profilePicAlt: 'Profile Picture',
-  profilePicUrl: '/images/profile.png'
+  profilePicImg: '/images/profile.png'
 };
 
 export const FOOTER = {
+  arrowImg: 'images/arrow.png',
+  arrowAlt: 'Arrow',
   connect: [],
   nav: [
     { name: 'Blog.', link: '#' },

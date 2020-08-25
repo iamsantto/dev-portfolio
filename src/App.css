@@ -14,7 +14,7 @@
 .Canvas {
   background-color: #222831;
   box-shadow: 0 0 10px 0px #222831;
-  margin: 5vh;
+  margin-top: 5vh;
   width: 100vw;
   height: 87vh;
 }
@@ -43,8 +43,9 @@
 }
 
 .Footer span {
-  text-decoration: overline;
-  padding-top: 2.5vh;
+  text-decoration: underline;
+  padding-top: 4vh;
+  font-size: medium;
 }
 
 .Header {
@@ -73,21 +74,27 @@
 }
 
 .Nav-Bar {
-  width: 55vw;
-  position: relative;
-  top: -3vh;
-  right: 10vw;
-  text-align: left;
   font-size: medium;
+  position: relative;
+  right: 35vw;
+  text-align: left;
+  top: 1.6vh;
+  width: 15vw;
 }
 
 .Connect {
-  width: 100vw;
+  left: 35vw;
   position: relative;
-  top: -5vh;
-  left: 30vw;
+  top: -1vh;
+  width: 15vw;
 }
 
 .Connect img {
+  height: 1.5vh;
+}
+
+.Arrow {
   height: 2vh;
+  position: absolute;
+  top: 1vh;
 }
