@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import Canvas from './Canvas';
 import CardOverlay from './CardOverlay';
+import Connect from './Connect';
 import Title from './Title'
+import NavBar from './NavBar'
 
 import { HEADER } from '../constants/app'
 
@@ -22,8 +24,10 @@ function App() {
 
       </Canvas>
       <CardOverlay position="Footer">
-        <div></div>
+        <span>Work</span>
       </CardOverlay>
+      <NavBar />
+      <Connect />
     </div>
   );
 }
