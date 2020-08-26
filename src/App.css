@@ -37,15 +37,16 @@
 }
 
 .Footer {
-  bottom: 1.3vh;
-  height: 8vh;
+  bottom: 3vh;
+  height: 5vh;
   justify-content: center;
+  align-items: center;
 }
 
 .Footer span {
   text-decoration: underline;
-  padding-top: 4vh;
-  font-size: medium;
+  padding-top: 2.2vh;
+  font-size: 1.5vh;
 }
 
 .Header {
@@ -74,27 +75,15 @@
 }
 
 .Nav-Bar {
-  font-size: medium;
-  position: relative;
-  right: 35vw;
-  text-align: left;
-  top: 1.6vh;
-  width: 15vw;
+  font-size: 1.2vh;
+  flex: 4;
 }
 
 .Connect {
-  left: 35vw;
-  position: relative;
-  top: -1vh;
-  width: 15vw;
+  flex: 4;
+  padding-bottom: 1vh;
 }
 
 .Connect img {
-  height: 1.5vh;
-}
-
-.Arrow {
-  height: 2vh;
-  position: absolute;
-  top: 1vh;
+  height: 1vh;
 }

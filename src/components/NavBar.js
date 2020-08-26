@@ -3,7 +3,7 @@ import { FOOTER } from '../constants/app';
 
 function NavBar() {
   return <div className="Nav-Bar">
-    {FOOTER.nav.map(item => <a href={item.link} key={item.link} target="blank">{item.name}</a>)}
+    {FOOTER.nav.map(item => <a href={item.link} key={item.link} target={item.target || '_blank'}>{item.name}</a>)}
   </div>
 }
 

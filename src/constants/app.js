@@ -9,10 +9,9 @@ export const HEADER = {
 };
 
 export const FOOTER = {
-  arrowImg: 'images/arrow.png',
-  arrowAlt: 'Arrow',
   connect: [],
   nav: [
+    { name: 'Work.', link: '/work', target: '_self'},
     { name: 'Blog.', link: '#' },
     { name: 'Resume.pdf', link: '#.pdf' }
   ]

@@ -5,7 +5,7 @@ import Connect from './Connect';
 import Title from './Title'
 import NavBar from './NavBar'
 
-import { HEADER, FOOTER } from '../constants/app'
+import { HEADER } from '../constants/app'
 
 import '../App.css';
 
@@ -24,11 +24,9 @@ function App() {
 
       </Canvas>
       <CardOverlay position="Footer">
-        <img src={FOOTER.arrowImg} alt={FOOTER.arrowAlt} className="Arrow" />
-        <span>Work</span>
+        <NavBar />
+        <Connect />
       </CardOverlay>
-      <NavBar />
-      <Connect />
     </div>
   );
 }
