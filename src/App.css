@@ -11,12 +11,13 @@
   text-align: center;
 }
 
-.Canvas {
-  background-color: #222831;
-  box-shadow: 0 0 10px 0px #222831;
-  margin-top: 5vh;
-  width: 100vw;
-  height: 87vh;
+.Content {
+  font-size: medium;
+  position: relative;
+  top: 10vh;
+  text-align: left;
+  height: fit-content;
+  width: 75vh;
 }
 
 .Card-Overlay {

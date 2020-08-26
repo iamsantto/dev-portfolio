@@ -1,18 +1,25 @@
 import React, { useEffect } from 'react';
+import {
+  Switch,
+  Route
+} from "react-router-dom";
+
+import About from './About';
 import Canvas from './Canvas';
 import CardOverlay from './CardOverlay';
 import Connect from './Connect';
-import Title from './Title'
-import NavBar from './NavBar'
+import Title from './Title';
+import NavBar from './NavBar';
+import Work from './Work';
 
-import { HEADER } from '../constants/app'
+import { HEADER } from '../constants/app';
 
 import '../App.css';
 
 function App() {
   useEffect(() => {
     document.title = HEADER.name
-  })
+  });
 
   return (
     <div className="App">
@@ -20,9 +27,14 @@ function App() {
         <Title />
         <div><img src={HEADER.profilePicImg} alt={HEADER.profilePicAlt} className="Profile-Picture" /></div>
       </CardOverlay>
-      <Canvas>
-
-      </Canvas>
+      <Switch>
+        <Route exact path="/">
+          <Canvas><About /></Canvas>
+        </Route>
+        <Route path="/work">
+          <Canvas><Work /></Canvas>
+        </Route>
+      </Switch>
       <CardOverlay position="Footer">
         <NavBar />
         <Connect />
