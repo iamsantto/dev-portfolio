@@ -1,3 +1,25 @@
 .About span {
   color: #bae8e8;
 }
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+}
+
+.RolesWrap, .TechStack {
+  align-items: center;
+  padding-top: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Role {
+  padding:10px;
+}
+
+.Level {
+  padding: 2px;
+  color: #e3f6f5;
+}

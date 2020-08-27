@@ -5,9 +5,26 @@ import { ABOUT } from '../constants/app'
 
 function About() {
   return <div className="Content About">
-    <span>{ABOUT.header}</span>
-    {ABOUT.body.map(content => <p>{content}</p>)}
-    <span>{ABOUT.footer}</span>
+    <div>
+      <span>{ABOUT.hello}</span>
+      {ABOUT.bio.map((content,index) => <p key={index}>{content}</p>)}
+      <span>{ABOUT.cheers}</span>
+    </div>
+    <div className="Container">
+      <span>{ABOUT.abilities}</span>
+      <div className="RolesWrap">
+        {ABOUT.roles.map((role, index)=> <div className="Role" key={index}>
+          {role.name}
+          <div>{Array.from({ length: role.level }, (level, index) => <b className="Level" key={index}>&mdash;</b>)}</div>
+        </div>)}
+      </div>
+    </div>
+    <div className="Container">
+      <span>{ABOUT.techStack}</span>
+      <div className="TechStack">
+        <a href={ABOUT.stackShareUrl} rel="noopener noreferrer" target="_blank">{ABOUT.stack}</a>
+      </div>
+    </div>
   </div>
 }
 
