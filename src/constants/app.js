@@ -51,20 +51,30 @@ export const FOOTER = {
   ]
 };
 
-export const CONNECT = {
-  githubAlt: 'Github logo',
-  githubImg: 'images/github.png',
-  githubUrl: 'https://github.com/iamsantto',
-  instagramAlt: 'Instagram logo',
-  instagramImg: 'images/instagram.png',
-  instagramUrl: 'https://www.instagram.com/craytographer/',
-  linkedinAlt: 'Linkedin logo',
-  linkedinImg: 'images/linkedin.png',
-  linkedinUrl: 'https://www.linkedin.com/in/iamsantto/',
-  mailAlt: 'Mail logo',
-  mailImg: 'images/mail.png',
-  mailUrl: 'mailto:iamsantto@gmail.com',
-  twitterAlt: 'Twitter logo',
-  twitterImg: 'images/twitter.png',
-  twitterUrl: 'https://twitter.com/craytographer/'
-}
+export const CONNECT = [
+  {
+    name: 'github',
+    logo: 'images/github.png',
+    url: 'https://github.com/iamsantto'
+  },
+  {
+    name: 'linkedin',
+    logo: 'images/linkedin.png',
+    url: 'https://www.linkedin.com/in/iamsantto/'
+  },
+  {
+    name: 'instagram',
+    logo: 'images/instagram.png',
+    url: 'https://www.instagram.com/craytographer/'
+  },
+  {
+    name: 'twitter',
+    logo: 'images/twitter.png',
+    url: 'https://twitter.com/craytographer/'
+  },
+  {
+    name: 'mail',
+    logo: 'images/mail.png',
+    url: 'mailto:iamsantto@gmail.com'
+  }
+]
