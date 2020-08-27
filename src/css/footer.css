@@ -1,0 +1,25 @@
+.Footer {
+  align-items: center;
+  bottom: 2vh;
+  height: 5vh;
+  justify-content: center;
+}
+
+.Footer span {
+  font-size: 1.5vh;
+  padding-top: 2.2vh;
+  text-decoration: underline;
+}
+
+.Connect {
+  flex: 4;
+}
+
+.Connect img {
+  height: 2vh;
+}
+
+.Nav-Bar {
+  flex: 4;
+  font-size: 1.5vh;
+}

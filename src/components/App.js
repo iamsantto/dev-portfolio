@@ -14,7 +14,9 @@ import Work from './Work';
 
 import { HEADER } from '../constants/app';
 
-import '../App.css';
+import '../css/main.css';
+import '../css/header.css';
+import '../css/footer.css';
 
 function App() {
   useEffect(() => {
