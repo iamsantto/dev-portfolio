@@ -8,6 +8,16 @@ export const HEADER = {
   profilePicImg: '/images/profile.png'
 };
 
+export const ABOUT = {
+  header: 'Hello.',
+  text: '',
+  logos: []
+}
+
+export const WORK = {
+  header: 'Work.'
+}
+
 export const FOOTER = {
   connect: [],
   nav: [
