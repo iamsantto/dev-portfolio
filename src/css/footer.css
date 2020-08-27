@@ -1,6 +1,6 @@
 .Footer {
   align-items: center;
-  bottom: 2vh;
+  bottom: 1.5vh;
   height: 5vh;
   justify-content: center;
 }
@@ -16,7 +16,7 @@
 }
 
 .Connect img {
-  height: 2vh;
+  height: 1.8vh;
 }
 
 .Nav-Bar {
