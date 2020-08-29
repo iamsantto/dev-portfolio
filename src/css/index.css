@@ -1,12 +1,12 @@
 body {
-  margin: 0;
-  font-family: 'Futura';
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Futura';
+  margin: 0;
 }
 
 a {
   color: #222831;
-  padding: 10px;
   cursor: pointer;
+  padding: 10px;
 }

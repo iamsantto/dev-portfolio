@@ -5,11 +5,9 @@ import { ABOUT } from '../constants/app'
 
 function About() {
   return <div className="About">
-    <div>
-      <span>{ABOUT.hello}</span>
-      {ABOUT.bio.map((content,index) => <p key={index}>{content}</p>)}
-      <span>{ABOUT.cheers}</span>
-    </div>
+    <span>{ABOUT.hello}</span>
+    {ABOUT.bio.map((content,index) => <p key={index}>{content}</p>)}
+    <span>{ABOUT.cheers}</span>
     <div className="Container">
       <span>{ABOUT.abilities}</span>
       <div className="RolesWrap">

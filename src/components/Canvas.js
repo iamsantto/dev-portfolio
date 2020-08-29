@@ -6,7 +6,6 @@ import Work from './Work'
 import { VIEWS } from '../constants/app';
 
 function Canvas ({ setview, view }) {
-  console.log(view);
   return <div className="Canvas">
     <div className="Content">
       { view === VIEWS.about ? <About /> : <Work /> }

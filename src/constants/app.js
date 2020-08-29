@@ -80,5 +80,5 @@ export const CONNECT = [
 ]
 
 export const VIEWS = {
-  about: 'about'
+  about: 'About'
 }
