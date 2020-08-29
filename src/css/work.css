@@ -1,1 +1,11 @@
-
+.Work {
+  align-items: center;
+  background-color: #e9f1f3;
+  box-shadow: 0 0 10px 0 #222831;
+  color: #222831;
+  height: 15vh;
+  z-index: 98;
+  width: 48vw;
+  position: absolute;
+  top: 0;
+}

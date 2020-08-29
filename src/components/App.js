@@ -1,24 +1,20 @@
-import React, { useEffect } from 'react';
-import {
-  Switch,
-  Route
-} from "react-router-dom";
+import React, { useEffect, useState } from 'react';
 
-import About from './About';
 import Canvas from './Canvas';
 import CardOverlay from './CardOverlay';
 import Connect from './Connect';
 import Title from './Title';
 import NavBar from './NavBar';
-import Work from './Work';
 
-import { HEADER } from '../constants/app';
+import { HEADER, VIEWS } from '../constants/app';
 
 import '../css/main.css';
 import '../css/header.css';
 import '../css/footer.css';
 
 function App() {
+  const [ view, setView ] = useState(VIEWS.about);
+
   useEffect(() => {
     document.title = HEADER.name
   });
@@ -29,16 +25,9 @@ function App() {
         <Title />
         <div><img src={HEADER.profilePicImg} alt={HEADER.profilePicAlt} className="Profile-Picture" /></div>
       </CardOverlay>
-      <Switch>
-        <Route exact path="/">
-          <Canvas><About /></Canvas>
-        </Route>
-        <Route path="/work">
-          <Canvas><Work /></Canvas>
-        </Route>
-      </Switch>
+      <Canvas view={view}/>
       <CardOverlay position="Footer">
-        <NavBar />
+        <NavBar setView={setView} />
         <Connect />
       </CardOverlay>
     </div>

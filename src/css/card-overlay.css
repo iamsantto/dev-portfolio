@@ -6,6 +6,7 @@
   flex-direction: row;
   height: 15vh;
   position: absolute;
-  width: 80vh;
+  width: 50vw;
   z-index: 99;
+  justify-content: center;
 }

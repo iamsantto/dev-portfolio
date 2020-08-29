@@ -5,7 +5,7 @@ import { CONNECT } from '../constants/app'
 function Connect() {
   return <div className="Connect">
     {CONNECT.map(link =>
-      <a href={link.url} rel="noopener noreferrer" target="_blank"><img src={link.logo} alt={link.name} /></a>
+      <a href={link.url} rel="noopener noreferrer" target="_blank" key={link.name}><img src={link.logo} alt={link.name} /></a>
     )}
   </div>
 }

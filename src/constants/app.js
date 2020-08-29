@@ -15,8 +15,8 @@ export const ABOUT = {
     `My unequivocal love for creativity ushered me to create my first html page back in 2006. I was taken aback by
     the endless possibilities and there has been no looking back ever since. I completed my B.Tech degree in Computer Science and
     Engineering from SRM University, Chennai in 2016.`,
-    `I kick-started my tech career by interning at Crayon Data and was lucky enough to associate myself with Cognizant and
-    Keepworks later on. As a polyglot developer, I have grabbed every possible opportunity at the workplace, to learn and hone
+    `I kick-started my tech career by interning at Crayon Data and later went on to work full time for Cognizant and
+    Keepworks. As a polyglot developer, I have grabbed every possible opportunity at the workplace, to learn and hone
     my skills by working on diverse tasks ranging from designing components to deploying apps to production servers.`,
     `Apart from building web apps, I am an avid reader and a hobbyist photographer who likes to travel.`
   ],
@@ -44,9 +44,9 @@ export const WORK = {
 export const FOOTER = {
   connect: [],
   nav: [
-    { name: 'Home.', link: '/', target: '_self'},
-    { name: 'Work.', link: '/work', target: '_self'},
-    { name: 'Blog.', link: '#' },
+    { name: 'About' },
+    { name: 'Work' },
+    { name: 'Blog', link: '#' },
     { name: 'Resume.pdf', link: '#.pdf' }
   ]
 };
@@ -78,3 +78,7 @@ export const CONNECT = [
     url: 'mailto:iamsantto@gmail.com'
   }
 ]
+
+export const VIEWS = {
+  about: 'about'
+}

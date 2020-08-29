@@ -4,7 +4,7 @@ import '../css/about.css'
 import { ABOUT } from '../constants/app'
 
 function About() {
-  return <div className="Content About">
+  return <div className="About">
     <div>
       <span>{ABOUT.hello}</span>
       {ABOUT.bio.map((content,index) => <p key={index}>{content}</p>)}
