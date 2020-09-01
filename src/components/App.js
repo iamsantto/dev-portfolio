@@ -13,7 +13,7 @@ import '../css/header.css';
 import '../css/footer.css';
 
 function App() {
-  const [ view, setView ] = useState(VIEWS.about);
+  const [ view, setView ] = useState(VIEWS.work);
 
   useEffect(() => {
     document.title = HEADER.name
@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       <CardOverlay position="Header">
         <Title />
-        <div><img src={HEADER.profilePicImg} alt={HEADER.profilePicAlt} className="Profile-Picture" /></div>
+        <div className="Headshot"><img src={HEADER.profilePicImg} alt={HEADER.profilePicAlt} className="Profile-Picture" /></div>
       </CardOverlay>
       <Canvas view={view}/>
       <CardOverlay position="Footer">

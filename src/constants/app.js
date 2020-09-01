@@ -13,15 +13,14 @@ export const ABOUT = {
   bio: [
     'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
     `My unequivocal love for creativity ushered me to create my first html page back in 2006. I was taken aback by
-    the endless possibilities and there has been no looking back ever since. I completed my B.Tech degree in Computer Science and
+    the endless possibilities and there has been no turning back since then. I completed my B.Tech degree in Computer Science and
     Engineering from SRM University, Chennai in 2016.`,
     `I kick-started my tech career by interning at Crayon Data and later went on to work full time for Cognizant and
     Keepworks. As a polyglot developer, I have grabbed every possible opportunity at the workplace, to learn and hone
     my skills by working on diverse tasks ranging from designing components to deploying apps to production servers.`,
     `Apart from building web apps, I am an avid reader and a hobbyist photographer who likes to travel.`
   ],
-  cheers: 'Cheers!',
-  hello: 'Hello.',
+  hello: 'Hello',
   logos: [],
   roles: [
     { name: 'Curiosity', level: 8 },
@@ -37,9 +36,53 @@ export const ABOUT = {
   techStack: 'Tech Stack'
 }
 
-export const WORK = {
-  header: 'Work.'
-}
+export const WORK = [
+  {
+    duration: 'January 2017 - Present',
+    projects: [{
+      name: 'Kandy Wrappers',
+      url: 'https://www.kandy.io/kandy-provides/kandy-wrappers'
+    }],
+    stack: [
+      'React',
+      'Redux',
+      'Laravel',
+      'Node.js',
+      'Mithril',
+      'Socket.io',
+      'Webpack',
+      'Yarn',
+      'Vagrant',
+      'ESlint',
+      'Babel',
+      'Gulp',
+      'Ngingx',
+      'Heroku'
+    ],
+    title: 'KeepWorks',
+    url: 'http://www.keepworks.com/'
+  },
+  {
+    duration: 'July 2016 - December 2017',
+    projects: [{
+      name: 'Kandy Wrappers',
+      url: 'https://www.kandy.io/kandy-provides/kandy-wrappers'
+    }],
+    stack:[],
+    title: 'Cognizant',
+    url: 'https://www.cognizant.com/'
+  },
+  {
+    duration: 'June 2016',
+    title: 'Crayon Data',
+    url: 'https://www.crayondata.com/'
+  },
+  {
+    duration: 'August 2012 - May 2016',
+    title: 'SRM University',
+    url: 'https://www.srmist.edu.in/'
+  }
+]
 
 export const FOOTER = {
   connect: [],
@@ -47,7 +90,7 @@ export const FOOTER = {
     { name: 'About' },
     { name: 'Work' },
     { name: 'Blog', link: '#' },
-    { name: 'Resume.pdf', link: '#.pdf' }
+    { name: 'Resume', link: '#.pdf' }
   ]
 };
 

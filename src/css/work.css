@@ -1,5 +1,5 @@
 .Work {
-  background-color: #e9f1f3;
+  background-color: #e3f6f5;
   bottom: 6.5vh;
   box-shadow: 0 0 10px 0 #222831;
   color: #222831;
@@ -8,4 +8,23 @@
   top: 17vh;
   width: 46vw;
   z-index: 98;
+}
+
+.Organization {
+  padding: 10px;
+}
+
+.Org-Title {
+  display: flex;
+  flex-direction: column;
+}
+
+.Duration {
+  font-size: small;
+  text-align: right;
+}
+
+.Stack {
+  font-size: small;
+  padding-left: 10px;
 }

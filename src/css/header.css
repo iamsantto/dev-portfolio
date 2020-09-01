@@ -2,14 +2,18 @@
   top: 2vh;
 }
 
+.Name {
+  font-size: 2.5vh;
+}
+
 .Designation {
   color: #2c698d;
-  font-size: calc(2vmin);
+  font-size: 2vh;
 }
 
 .Location {
   color: #272643;
-  font-size: calc(1.5vmin);
+  font-size: 1.5vh;
   padding-top: 0.2vh;
 }
 
@@ -18,9 +22,10 @@
   padding-right: 0.2vw;
 }
 
-.Profile-Picture {
+.Headshot img {
   height: 15vh;
   margin-top: 0.6vh;
+  opacity: 0.97;
 }
 
 .Title {

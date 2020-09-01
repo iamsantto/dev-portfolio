@@ -1,5 +1,6 @@
 .About span {
   color: #bae8e8;
+  font-size: larger;
 }
 
 .Container {
@@ -16,7 +17,11 @@
 }
 
 .Role {
-  padding:10px;
+  padding:15px;
+}
+
+.TechStack a {
+  color: #e3f6f5;
 }
 
 .Level {
