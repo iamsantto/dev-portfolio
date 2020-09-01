@@ -10,7 +10,16 @@ function Work() {
         <a href={organisation.url} target="_blank" rel="noopener noreferrer">{organisation.title}</a>
         <span className="Duration">{organisation.duration}</span>
       </div>
-      <div className="Stack">{organisation.stack?.join(', ')}</div>
+      <ul>
+        {organisation.projects.map(project => <li className="Projects" key={project.name}>
+          {project.url ? <a href={project.url} target="_blank" rel="noopener noreferrer">{project.name}</a>
+            : <span>{project.name}</span>}
+          <ul>
+            {project.description?.map((desc, index) => <li className="Description" key={index}>{desc}</li>)}
+          </ul>
+        </li>)}
+        <div className="Stack">Stack: {organisation.stack?.join(', ')}</div>
+      </ul>
     </div>)}
   </div>
 }

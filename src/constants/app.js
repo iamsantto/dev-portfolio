@@ -40,6 +40,11 @@ export const WORK = [
   {
     duration: 'January 2017 - Present',
     projects: [{
+      description: [
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
+      ],
       name: 'Kandy Wrappers',
       url: 'https://www.kandy.io/kandy-provides/kandy-wrappers'
     }],
@@ -57,7 +62,11 @@ export const WORK = [
       'Babel',
       'Gulp',
       'Ngingx',
-      'Heroku'
+      'Heroku',
+      'MongoDB',
+      'MySQL',
+      'Jest',
+      'IBM Watson'
     ],
     title: 'KeepWorks',
     url: 'http://www.keepworks.com/'
@@ -65,20 +74,89 @@ export const WORK = [
   {
     duration: 'July 2016 - December 2017',
     projects: [{
-      name: 'Kandy Wrappers',
-      url: 'https://www.kandy.io/kandy-provides/kandy-wrappers'
+      description: [
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
+      ],
+      name: 'Digital Engagement Practice',
+      url: 'https://www.cognizant.com/whitepapers/Digital_Engagement_Practice_overview.pdf'
     }],
-    stack:[],
+    stack:[
+      'Angular',
+      'Express.js',
+      'Neo4j',
+      'D3.js',
+      'Node.js',
+      'MongoDB',
+      'jQuery',
+      'Jasmine',
+      'Webpack',
+      'Mocha',
+      'Vagrant',
+      'ESlint',
+      'Babel',
+      'Gulp'
+    ],
     title: 'Cognizant',
     url: 'https://www.cognizant.com/'
   },
   {
     duration: 'June 2016',
+    projects: [{
+      description: [
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
+        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
+      ],
+      name: 'Maya.ai',
+      url: 'https://maya.ai/'
+    }],
+    stack: [
+      'jQuery',
+      'JavaScript',
+      'JSON',
+      'MS Excel'
+    ],
     title: 'Crayon Data',
     url: 'https://www.crayondata.com/'
   },
   {
     duration: 'August 2012 - May 2016',
+    projects: [
+      {
+        description: [
+          'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
+        ],
+        name: 'Technical Head - Directorate of Student Affairs',
+        url: 'https://www.linkedin.com/company/srmdsa/'
+      },
+      {
+        description: [
+          'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
+        ],
+        name: 'Active Member - Webarch',
+        url: 'https://webarchsrm.com/'
+      },
+      {
+        description: [
+          'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
+        ],
+        name: 'Convenor - Graphikos (Design Club)'
+      },
+      {
+        description: [
+          'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
+        ],
+        name: 'Cultural Secretary (2015-2016)'
+      }
+    ],
+    stack: [
+      'HTML/CSS/JS',
+      'Python',
+      'Photoshop',
+      'Illustrator'
+    ],
     title: 'SRM University',
     url: 'https://www.srmist.edu.in/'
   }

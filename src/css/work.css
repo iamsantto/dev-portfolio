@@ -12,19 +12,34 @@
 
 .Organization {
   padding: 10px;
-}
-
-.Org-Title {
   display: flex;
   flex-direction: column;
+}
+
+.Org-Title a {
+  color: #2c698d;
+}
+
+.Description {
+  list-style-type: disc;
 }
 
 .Duration {
   font-size: small;
   text-align: right;
+  float: right;
+}
+
+.Projects {
+  font-size: small;
+  list-style-type: none;
+}
+
+.Projects span {
+  padding: 10px;
 }
 
 .Stack {
   font-size: small;
-  padding-left: 10px;
+  padding: 10px;
 }
