@@ -14,9 +14,7 @@ function Work() {
         {organisation.projects.map(project => <li className="Projects" key={project.name}>
           {project.url ? <a href={project.url} target="_blank" rel="noopener noreferrer">{project.name}</a>
             : <span>{project.name}</span>}
-          <ul>
-            {project.description?.map((desc, index) => <li className="Description" key={index}>{desc}</li>)}
-          </ul>
+            <p>{project.description}</p>
         </li>)}
         <div className="Stack">Stack: {organisation.stack?.join(', ')}</div>
       </ul>

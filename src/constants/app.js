@@ -40,11 +40,7 @@ export const WORK = [
   {
     duration: 'January 2017 - Present',
     projects: [{
-      description: [
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
-      ],
+      description: '',
       name: 'Kandy Wrappers',
       url: 'https://www.kandy.io/kandy-provides/kandy-wrappers'
     }],
@@ -74,11 +70,7 @@ export const WORK = [
   {
     duration: 'July 2016 - December 2017',
     projects: [{
-      description: [
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
-      ],
+      description: 'Finished in the top 24 of a coding challenge, which helped me get into the certified Full Stack Training program conducted by NIIT StackRoute instead of the regular trainning modules.',
       name: 'Digital Engagement Practice',
       url: 'https://www.cognizant.com/whitepapers/Digital_Engagement_Practice_overview.pdf'
     }],
@@ -104,19 +96,14 @@ export const WORK = [
   {
     duration: 'June 2016',
     projects: [{
-      description: [
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
-        'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
-      ],
+      description: 'Responsible for writing scripts which read massive excel sheets, curate the data into suitable JSON models which were further used to render webpages.',
       name: 'Maya.ai',
       url: 'https://maya.ai/'
     }],
     stack: [
       'jQuery',
       'JavaScript',
-      'JSON',
-      'MS Excel'
+      'JSON'
     ],
     title: 'Crayon Data',
     url: 'https://www.crayondata.com/'
@@ -125,30 +112,22 @@ export const WORK = [
     duration: 'August 2012 - May 2016',
     projects: [
       {
-        description: [
-          'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
-        ],
+        description: 'Built a registration portal integrating third party APIs to facilitate online payments and automated response mails for handling registrations for our national level cultural fest which saw over 30,000 registrations.',
         name: 'Technical Head - Directorate of Student Affairs',
         url: 'https://www.linkedin.com/company/srmdsa/'
       },
       {
-        description: [
-          'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
-        ],
+        description: 'The multidisciplinary learnings at this club, working with various clients assisting them with web design/development and branding content nurtured me into the developer I am.',
         name: 'Active Member - Webarch',
         url: 'https://webarchsrm.com/'
       },
       {
-        description: [
-          'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
-        ],
-        name: 'Convenor - Graphikos (Design Club)'
+        description: 'Co-ordinate the functioning of the student body, planning/execution of various events during the academic year, including Milan \'16 - our annual national level cultural fest for about 25,000 students of the university.',
+        name: 'Cultural Secretary (2015-2016)'
       },
       {
-        description: [
-          'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.'
-        ],
-        name: 'Cultural Secretary (2015-2016)'
+        description: 'Lead/Mentor a team of graphic designers responsible for continuous delivery of branding material such as webpages, event posters, banners, logos, graffiti, Tshirt designs, etc.',
+        name: 'Convenor - Graphikos (Design Club)'
       }
     ],
     stack: [
@@ -167,7 +146,7 @@ export const FOOTER = {
   nav: [
     { name: 'About' },
     { name: 'Work' },
-    { name: 'Blog', link: '#' },
+    { name: 'Blog', link: 'https://www.craytographer.com/' },
     { name: 'Resume', link: '#.pdf' }
   ]
 };
@@ -201,5 +180,6 @@ export const CONNECT = [
 ]
 
 export const VIEWS = {
-  about: 'About'
+  about: 'About',
+  work: 'Work'
 }
