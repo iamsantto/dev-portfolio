@@ -1,16 +1,3 @@
-.Footer {
-  align-items: center;
-  bottom: 1.5vh;
-  height: 5vh;
-  justify-content: center;
-}
-
-.Footer span {
-  font-size: 1.5vh;
-  padding-top: 2.2vh;
-  text-decoration: underline;
-}
-
 .Connect img {
   height: 1.5vh;
 }

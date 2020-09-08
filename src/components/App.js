@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 import Canvas from './Canvas';
-import CardOverlay from './CardOverlay';
 import Connect from './Connect';
-import Title from './Title';
 import NavBar from './NavBar';
 
-import { HEADER, ABOUT, VIEWS } from '../constants/app';
+import { HEADER, VIEWS } from '../constants/app';
 
 import '../css/main.css';
-import '../css/header.css';
 import '../css/footer.css';
 
 function App() {

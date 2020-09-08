@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import '../css/work.css'
 import { WORK } from '../constants/app';
 
 function Work() {
+  useEffect(() => {
+    document.body.style.height = 'auto';
+    document.body.style.margin = '5px';
+  });
+
   return <div>
     {WORK.map(organisation => <div className="Organization" key={organisation.title}>
       <div className="Org-Title">
