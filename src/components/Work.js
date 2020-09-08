@@ -4,7 +4,7 @@ import '../css/work.css'
 import { WORK } from '../constants/app';
 
 function Work() {
-  return <div className="Work">
+  return <div>
     {WORK.map(organisation => <div className="Organization" key={organisation.title}>
       <div className="Org-Title">
         <a href={organisation.url} target="_blank" rel="noopener noreferrer">{organisation.title}</a>

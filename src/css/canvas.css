@@ -1,9 +1,4 @@
 .Canvas {
-  background-color: #272643;
-  box-shadow: 0 0 10px 0px #222831;
-  display: flex;
-  height: 87vh;
-  justify-content: center;
-  margin-top: 5vh;
-  width: 100vw;
+  text-align: left;
+  margin: 30px;
 }

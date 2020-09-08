@@ -11,22 +11,6 @@
   font-size: 2vh;
 }
 
-.Location {
-  color: #272643;
-  font-size: 1.5vh;
-  padding-top: 0.2vh;
-}
-
-.Location-Icon {
-  height: 1.1vh;
-  padding-right: 0.2vw;
-}
-
-.Headshot img {
-  height: 15vh;
-  opacity: 0.97;
-}
-
 .Title {
   margin: 2vh;
   padding: 2vh 10vh;

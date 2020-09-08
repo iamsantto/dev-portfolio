@@ -1,20 +1,36 @@
 .App {
-  align-items: center;
-  background-color: #bae8e8;
-  color: #e3f6f5;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  text-align: center;
-  width: 100vw;
+  width: 60vw;
+  box-shadow: 0px 0px 10px 2px #d8d3cd;
+  padding: 30px;
+  background-color: #f4f6ff;
 }
 
-.Content {
-  font-size: medium;
-  height: fit-content;
-  position: relative;
-  text-align: left;
-  top: 15vh;
-  width: 48vw;
+.Headshot {
+  height: 15vh;
+  border-radius: 50%;
+  opacity: 0.97;
+  box-shadow: 0px 0px 10px 2px #ff4b5c;
+}
+
+.Headshot:hover {
+  animation:bounceOut .7s linear;
+}
+
+h2 {
+  margin: 10px;
+  color: #393b44;
+}
+
+h4 {
+  margin: auto;
+  font-size: 1.3em;
+  color: #ff4b5c;
+}
+
+@keyframes bounceOut {
+  0%{ box-shadow: 0px 0px 10px 2px #ff4b5c; opacity:1;}
+  25%{ box-shadow: 0px 0px 10px 1px #ff4b5c; opacity:1;}
+  50%{ box-shadow: 0px 0px 10px 7px #ff4b5c; opacity:1; }
+  75%{ box-shadow: 0px 0px 10px 1px #ff4b5c; opacity:1;}
+  100%{ box-shadow: 0px 0px 10px 2px #ff4b5c; opacity:1;}
 }

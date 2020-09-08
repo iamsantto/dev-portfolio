@@ -5,11 +5,10 @@ export const HEADER = {
   locationIconAlt: 'Location',
   name: 'Santhosh Thirumavalavan',
   profilePicAlt: 'Profile Picture',
-  profilePicImg: '/images/profile.png'
+  profilePicImg: '/images/profile.jpg'
 };
 
 export const ABOUT = {
-  abilities: 'Key Abilities',
   bio: [
     'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
     `My unequivocal love for creativity ushered me to create my first html page back in 2006. I was taken aback by
@@ -20,25 +19,13 @@ export const ABOUT = {
     my skills by working on diverse tasks ranging from designing components to deploying apps to production servers.`,
     `Apart from building web apps, I am an avid reader and a hobbyist photographer who likes to travel.`
   ],
-  hello: 'Hello',
-  logos: [],
-  roles: [
-    { name: 'Curiosity', level: 8 },
-    { name: 'Communication', level: 8 },
-    { name: 'Product Sensibility', level: 8 },
-    { name: 'Problem Solving', level: 7 },
-    { name: 'UI/UX Design', level: 5 },
-    { name: 'Frontend Development', level: 7},
-    { name: 'Backend Development', level: 7},
-  ],
-  stack: 'React, Redux, Node.js, more...',
-  stackShareUrl: 'https://stackshare.io/iamsantto/stack',
-  techStack: 'Tech Stack'
+  stack: 'Here\'s my tech stack.',
+  stackShareUrl: 'https://stackshare.io/iamsantto/my-stack',
 }
 
 export const WORK = [
   {
-    duration: 'January 2017 - Present',
+    duration: 'Jan \'17 - Present',
     projects: [{
       description: '',
       name: 'Kandy Wrappers',
@@ -68,7 +55,7 @@ export const WORK = [
     url: 'http://www.keepworks.com/'
   },
   {
-    duration: 'July 2016 - December 2017',
+    duration: 'Jul \'16 - Dec \'17',
     projects: [{
       description: 'Finished in the top 24 of a coding challenge, which helped me get into the certified Full Stack Training program conducted by NIIT StackRoute instead of the regular trainning modules.',
       name: 'Digital Engagement Practice',
@@ -94,7 +81,7 @@ export const WORK = [
     url: 'https://www.cognizant.com/'
   },
   {
-    duration: 'June 2016',
+    duration: 'Jun \'16',
     projects: [{
       description: 'Responsible for writing scripts which read massive excel sheets, curate the data into suitable JSON models which were further used to render webpages.',
       name: 'Maya.ai',
@@ -109,7 +96,7 @@ export const WORK = [
     url: 'https://www.crayondata.com/'
   },
   {
-    duration: 'August 2012 - May 2016',
+    duration: 'Aug \'12 - May \'16',
     projects: [
       {
         description: 'Built a registration portal integrating third party APIs to facilitate online payments and automated response mails for handling registrations for our national level cultural fest which saw over 30,000 registrations.',
