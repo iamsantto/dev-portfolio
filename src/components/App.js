@@ -6,9 +6,6 @@ import NavBar from './NavBar';
 
 import { HEADER, VIEWS } from '../constants/app';
 
-import '../css/main.css';
-import '../css/footer.css';
-
 function App() {
   const [ view, setView ] = useState(VIEWS.about);
 

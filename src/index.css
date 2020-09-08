@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #ff4b5c;
+  --secondary-color: #d8d3cd;
+  --tertiary-color: #f8f8ff;
+  --font-color: #393b44;
+
+  --font-family: 'Helvetica';
+  --shadow-config: 0px 0px 10px 2px;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  align-items: center;
+  background-color: var(--tertiary-color);
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  margin: 10px;
+}
+
+h4 {
+  color: var(--primary-color);
+  font-size: 1.3em;
+  margin: auto;
+}
+
+a {
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.App {
+  background-color: var(--tertiary-color);
+  box-shadow: var(--shadow-config) var(--secondary-color);
+  padding: 30px;
+  width: 60vw;
+}
+
+.Headshot {
+  border-radius: 50%;
+  box-shadow: var(--shadow-config) var(--primary-color);
+  height: 15vh;
+}
+
+.Headshot:hover {
+  animation:bounceOut .7s linear;
+}
+
+.Canvas {
+  text-align: left;
+  margin: 30px;
+}
+
+.Connect img {
+  height: 1.5vh;
+  margin: 10px;
+}
+
+.Nav-Bar {
+  font-size: 1.5vh;
+  margin: 30px;
+}
+
+.Nav-Bar a, .Nav-Bar span {
+  background-image: linear-gradient(180deg,transparent 75%, var(--primary-color));
+  background-position-x: 8px;
+  background-position-y: -4px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  text-decoration: none;
+  transition: .15s ease;
+}
+
+.Nav-Bar a:hover, .Nav-Bar span:hover{
+  padding-right: 4px;
+  padding-bottom: 2px;
+}
+
+.Nav-Bar span {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.Organization {
+  display: flex;
+  flex-direction: column;
+}
+
+.Org-Title a {
+  color: var(--primary-color);
+}
+
+.Duration {
+  float: right;
+  font-size: smaller;
+  text-align: right;
+}
+
+.Projects {
+  list-style-type: none;
+}
+
+.Projects span {
+  text-decoration: underline;
+}
+
+.Stack {
+  font-size: small;
+}
+
+@keyframes bounceOut {
+  0%{ box-shadow: 0px 0px 10px 2px var(--primary-color); opacity:1;}
+  25%{ box-shadow: 0px 0px 10px 1px var(--primary-color); opacity:1;}
+  50%{ box-shadow: 0px 0px 10px 7px var(--primary-color); opacity:1; }
+  75%{ box-shadow: 0px 0px 10px 1px var(--primary-color); opacity:1;}
+  100%{ box-shadow: 0px 0px 10px 2px var(--primary-color); opacity:1;}
+}
