@@ -133,7 +133,8 @@ export const FOOTER = {
   nav: [
     { name: 'About' },
     { name: 'Work' },
-    { name: 'Blog', link: 'https://www.craytographer.com/' },
+    { name: 'Blog', link: 'https://medium.com/@craytographer' },
+    { name: 'Pictures', link: 'https://500px.com/craytographer' },
     { name: 'Resume', link: '#.pdf' }
   ]
 };
