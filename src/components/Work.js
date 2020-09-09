@@ -11,7 +11,7 @@ function Work() {
     {WORK.map(organisation => <div className="Organization" key={organisation.title}>
       <div className="Org-Title">
         <a href={organisation.url} target="_blank" rel="noopener noreferrer">{organisation.title}</a>
-        <span className="Duration">{organisation.duration}</span>
+        <span className="Duration Pull-Right">{organisation.duration}</span>
       </div>
       <ul>
         {organisation.projects.map(project => <li className="Projects" key={project.name}>

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 
-import { ABOUT } from '../constants/app'
+import { ABOUT } from '../constants/app';
+import Tag from './Tag';
 
 function About() {
   useEffect(() => {

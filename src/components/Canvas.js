@@ -1,8 +1,8 @@
 import React from 'react';
 
-import About from './About'
-import Work from './Work'
 import { VIEWS } from '../constants/app';
+import About from './About';
+import Work from './Work';
 
 function Canvas ({ view }) {
   return <div className="Canvas">
