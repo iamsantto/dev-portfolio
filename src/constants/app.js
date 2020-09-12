@@ -27,7 +27,7 @@ export const WORK = [
   {
     duration: 'Jan \'17 - Present',
     projects: [{
-      description: '',
+      description: 'Currently leading the development of the project by communicating with various teams across remote locations. Built major UI components with complex business logic, integrating third party APIs/SDKs. Developed the Round Robin algorithm for scheduling the customer requests. Improved the efficiency of our custom bot with the help of IBM Watson. Migrated different services to build a monolithic architecture. Set up, deployed the apps to production servers.',
       name: 'Kandy Wrappers',
       url: 'https://www.kandy.io/kandy-provides/kandy-wrappers'
     }],
@@ -57,7 +57,7 @@ export const WORK = [
   {
     duration: 'Jul \'16 - Dec \'17',
     projects: [{
-      description: 'Finished in the top 24 of a coding challenge, which helped me get into the certified Full Stack Training program conducted by NIIT StackRoute instead of the regular trainning modules.',
+      description: 'Finished in the top 24 of a coding challenge, which helped me get into the certified Full Stack Training program conducted by NIIT StackRoute instead of the regular training modules. Went on to work on a search portal that used a graph based database system and natural language processing.',
       name: 'Digital Engagement Practice',
       url: 'https://www.cognizant.com/whitepapers/Digital_Engagement_Practice_overview.pdf'
     }],
@@ -135,7 +135,7 @@ export const FOOTER = {
     { name: 'Work' },
     { name: 'Blog', link: 'https://medium.com/@craytographer' },
     { name: 'Pictures', link: 'https://500px.com/craytographer' },
-    { name: 'Resume', link: '#.pdf' }
+    { name: 'Resume', link: 'santhosht.pdf' }
   ]
 };
 
@@ -148,7 +148,7 @@ export const CONNECT = [
   {
     name: 'linkedin',
     logo: 'images/linkedin.png',
-    url: 'https://www.linkedin.com/in/iamsantto/'
+    url: 'https://www.linkedin.com/in/craytographer/'
   },
   {
     name: 'instagram',
