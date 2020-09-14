@@ -5,7 +5,7 @@ import { WORK } from '../constants/app';
 function Work() {
   useEffect(() => {
     document.body.style.height = 'auto';
-    window.scrollTo(0, 0);
+    window.scrollTo(0,0);
   });
 
   return (

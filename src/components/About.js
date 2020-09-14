@@ -6,7 +6,7 @@ function About() {
   useEffect(() => {
     document.body.style.height = '100vh';
     document.body.style.margin = '0';
-    window.scrollTo(0, 0);
+    window.scrollTo(0,0);
   });
 
   return (

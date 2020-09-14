@@ -10,14 +10,8 @@ export const HEADER = {
 
 export const ABOUT = {
   bio: [
-    'I am a Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code.',
-    `My unequivocal love for creativity ushered me to create my first html page back in 2006. I was taken aback by
-    the endless possibilities and there has been no turning back since then. I completed my B.Tech degree in Computer Science and
-    Engineering from SRM University, Chennai in 2016.`,
-    `I kick-started my tech career by interning at Crayon Data and later went on to work full time for Cognizant and
-    Keepworks. As a polyglot developer, I have grabbed every possible opportunity at the workplace, to learn and hone
-    my skills by working on diverse tasks ranging from designing components to deploying apps to production servers.`,
-    `Apart from building web apps, I am an avid reader and a hobbyist photographer who likes to travel.`
+    'I am an experienced Full Stack Web Developer and UI/UX enthusiast who focuses on writing clean, elegant and efficient code. I built my first HTML page in 2006, pursed a B.Tech in Computer Science & Engineering (2016) and worked on some amazing products which have shaped me into the able, creative and confident professional I am.',
+    'Learning and curiosity are two things that keep me motivated. I am passionate about my goals and I work hard to achieve them. I am a hobbyist photographer, an avid reader and a fitness fanatic.'
   ],
   stack: 'Here\'s my tech stack.',
   stackShareUrl: 'https://stackshare.io/iamsantto/my-stack',
@@ -27,7 +21,7 @@ export const WORK = [
   {
     duration: 'Jan \'17 - Present',
     projects: [{
-      description: 'Currently leading the development of the project by communicating with various teams across remote locations. Built major UI components with complex business logic, integrating third party APIs/SDKs. Developed the Round Robin algorithm for scheduling the customer requests. Improved the efficiency of our custom bot with the help of IBM Watson. Migrated different services to build a monolithic architecture. Set up, deployed the apps to production servers.',
+      description: 'Currently leading the development of the product, communicating with various teams across remote locations. Built numerous UI components which implement complex business logic involving instant messaging, voice/video calling and screensharing features using third party API / SDK integrations. Worked on enormous real-time, historical statistic reports, their storage, retrieval and dashboard display. Implemented the Round Robin algorithm for scheduling the customer requests. Improved the efficiency of our chat bot with the help of IBM Watson. Set up and deployed the apps to various production servers with load balancing in place.',
       name: 'Kandy Wrappers',
       url: 'https://www.kandy.io/kandy-provides/kandy-wrappers'
     }],
@@ -57,7 +51,7 @@ export const WORK = [
   {
     duration: 'Jul \'16 - Dec \'17',
     projects: [{
-      description: 'Finished in the top 24 of a coding challenge, which helped me get into the certified Full Stack Training program conducted by NIIT StackRoute instead of the regular training modules. Went on to work on a search portal that used a graph based database system and natural language processing.',
+      description: 'Finished in the top 24 of a coding challenge, which helped me get into the certified Full Stack training program conducted by NIIT StackRoute where I learnt the MEAN stack. Built some UI components & designed APIs for a resume search app that used natural language processing and a graph based database system.',
       name: 'Digital Engagement Practice',
       url: 'https://www.cognizant.com/whitepapers/Digital_Engagement_Practice_overview.pdf'
     }],
@@ -83,7 +77,7 @@ export const WORK = [
   {
     duration: 'Jun \'16',
     projects: [{
-      description: 'Responsible for writing scripts which read massive excel sheets, curate the data into suitable JSON models which were further used to render webpages.',
+      description: 'Responsible for building scripts which read massive excel sheets, curate the data into suitable JSON models which were further used to render webpages.',
       name: 'Maya.ai',
       url: 'https://maya.ai/'
     }],
@@ -104,12 +98,12 @@ export const WORK = [
         url: 'https://www.linkedin.com/company/srmdsa/'
       },
       {
-        description: 'The multidisciplinary learnings at this club, working with various clients assisting them with web design/development and branding content nurtured me into the developer I am.',
+        description: 'Worked with various clients assisting them with web design/development requirements.',
         name: 'Active Member - Webarch',
         url: 'https://webarchsrm.com/'
       },
       {
-        description: 'Co-ordinate the functioning of the student body, planning/execution of various events during the academic year, including Milan \'16 - our annual national level cultural fest for about 25,000 students of the university.',
+        description: 'Co-ordinated the functioning of the student body, planning/execution of various events, including Milan \'16 - our annual national level cultural fest for about 25,000 students of the university.',
         name: 'Cultural Secretary (2015-2016)'
       },
       {
@@ -148,7 +142,7 @@ export const CONNECT = [
   {
     name: 'linkedin',
     logo: 'images/linkedin.png',
-    url: 'https://www.linkedin.com/in/craytographer/'
+    url: 'https://www.linkedin.com/in/iamsantto/'
   },
   {
     name: 'instagram',
