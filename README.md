@@ -1,5 +1,5 @@
 # Developer Portfolio
-Client app for iamsantto.com
+Client app for iamsantto.xyz
 
 This app is built with React and deployed on heroku.
 
