@@ -1,8 +1,5 @@
 export const HEADER = {
   designation: 'Full Stack Developer',
-  location: 'Bangalore, India',
-  locationIcon: '/images/location.png',
-  locationIconAlt: 'Location',
   name: 'Santhosh Thirumavalavan',
   profilePicAlt: 'Profile Picture',
   profilePicImg: '/images/profile.jpg'
