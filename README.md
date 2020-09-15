@@ -1,5 +1,5 @@
-# Develop Portfolio
-Client app for santhosht.com.
+# Developer Portfolio
+Client app for iamsantto.com
 
 This app is built with React and deployed on heroku.
 
